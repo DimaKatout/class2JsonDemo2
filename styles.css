@@ -1,0 +1,21 @@
+body{background-color:pink;}
+
+li {font-size: 1.5em;}
+
+li.person-template{
+    display: none;
+}
+
+ul{
+    background-color: white;
+    /*zay ka2nha mo mawjodeh */
+    /*display: none; basta5demha eza bedi a3mel .show() */ 
+    /*exist but hidden*/
+/*visibility: hidden;*/
+}
+
+/*i wnt to have a class on this ul when i click 
+on that class something happen to this ul*/
+ul.on{
+    visibility: visible;
+}
